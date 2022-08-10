@@ -5,12 +5,8 @@ import Title from './Title';
 
 class SolarSystem extends React.Component {
   render() {
-    const plantent = 'Matheus';
     return (
       <div data-testid="solar-system">
-        <p>
-          {plantent}
-        </p>
         <Title headline="Planetas" />
         <div>
           {planets.map((planet) => (
